@@ -11,16 +11,15 @@ import { ProfileProvider } from './context/profile.context';
 function App() {
   return (
     <ProfileProvider>
-      <Switch> 
+      <Switch>
         <PublicRoute path="/signin">
           <Signin />
         </PublicRoute>
-        <PrivateRoute path ='/'>
+        <PrivateRoute path="/">
           <Home />
         </PrivateRoute>
-
       </Switch>
-  </ProfileProvider>
+    </ProfileProvider>
   );
 }
 
