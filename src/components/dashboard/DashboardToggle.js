@@ -12,8 +12,8 @@ const DashboardToggle = () => {
     auth.signOut();
     Alert.info('Signed Out', 4000);
     close();
-  },[close])
-  
+  }, [close]);
+
   return (
     <>
       <Button block color="blue" onClick={open}>
