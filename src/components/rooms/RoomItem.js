@@ -5,8 +5,6 @@ import ProfileAvatar from '../ProfileAvatar'
 const RoomItem = ({ room }) => {
 
     const { createdAt, name, lastMessage } = room
-    console.log(lastMessage)
-
 
   return <div>
     <div className="d-flex justify-content-between align-items-center">
